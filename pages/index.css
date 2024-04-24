@@ -1,14 +1,132 @@
 .page {
     background-color: #2A2C2F;
-    margin: 0 auto;
+    margin: 0 auto ;
+    width: 1280px;
+    padding-bottom: 1883px;
 }
 
 .header {
-
-
+    display: flex;
+    justify-content: center; 
 }
 
 .header__logo-image {
+    padding-top: 2.125rem;
+}
+
+.lead {
     display: flex;
-    justify-content: center; 
+    flex-direction: column;
+    color: #FFFFFF;
+    align-items: center;
+    padding-top: 5.625rem;
+    max-width: 76,875%;
+    max-height: 76,796%;
+
+}
+
+.lead__title {
+    max-width: 56,25%;
+    max-height: 15,625%;
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 6rem;
+    line-height: 1.2;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.lead__subtitle {
+    max-width: 56,25%;
+    max-height: 5,625%;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 1.875rem;
+    line-height: 1.2;
+    text-align: center;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.lead__image {
+    max-width: 76,875%;
+    max-height: 48,046%;
+    padding-top: 4rem;
+    padding-left: auto;
+    padding-right: auto;
+}
+
+.intro {
+    display: flex;
+    flex-direction: column;
+    color: #FFFFFF;
+    max-width: 64,84%;
+    max-height: 37,656%;
+}
+
+.intro__title {
+    max-width: 64,84%;
+    max-height: 9,0625%;
+    padding-top: 5.75rem;
+    padding-left: auto;
+    padding-right: auto;
+    text-align: center;
+    font-family: "Inter";
+    font-weight: 900;
+    font-size: 3.375rem;
+    line-height: 1.1;
+    text-align: left;
+}
+
+.intro__subtitle {
+    max-width: 57,656%;
+    max-height: 5,31%;
+    padding-top: 2.5rem;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    text-align: left;
+}
+
+.intro__author {
+    max-width: 57,187%;
+    max-height: 2,656%;
+    padding-top: 0.625rem;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 1.5rem;
+    line-height: 1.4;
+    text-align: right;
+}
+
+.intro__main-text {
+    max-width: 56,406%;
+    max-height: 14,218%;
+    padding-top: 2rem;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 1.625;
+    text-align: left;
+}
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #FFFFFF;
+    max-width: 12,968%;
+    max-height: 1,25%;
+}
+
+.footer__copyright {
+    padding-top: 5.75rem;
+    font-family: "Inter";
+    font-weight: 400;
+    font-size: 0.875;
+    line-height: 1.1;
+    text-align: right;
+
 }
