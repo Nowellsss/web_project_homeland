@@ -1,8 +1,9 @@
-@media screen and (min-width:1000px) {
 .header {
-    display: flex;
-    justify-content: center;
+  display: flex;
+  justify-content: center;
 }
+
+@media screen and (min-width:1000px) {
 
 .header__logo-image {
     padding-top: 2.125%;
@@ -11,10 +12,6 @@
 
 
 @media screen and (max-width:999px) and (min-width:550px) {
-.header {
-  display: flex;
-  justify-content: center;
-}
 
 .header__logo-image {
   padding-top: 1.875%;
@@ -24,10 +21,6 @@
 
 
 @media screen and (max-width:549px) {
-.header {
-  display: flex;
-  justify-content: center;
-}
 
 .header__logo-image {
   padding-top: 1.25%;

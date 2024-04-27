@@ -11,20 +11,6 @@
   text-rendering: optimizeLegibility;
 }
 
-@media screen and (min-width:1000px) {
-  .content {
+.content {
       padding: 0;
-  }
-}
-
-@media screen and (max-width:999px) and (min-width:550px) {
-  .content {
-      padding: 0;
-  }
-}
-
-@media screen and (max-width:549px) {
-  .content {
-      padding: 0;
-  }
 }
