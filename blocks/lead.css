@@ -1,9 +1,13 @@
+.lead {
+  display: flex;
+  flex-direction: column;
+  color: #FFFFFF;
+  align-items: center;
+}
+
 @media screen and (min-width:1000px) {
-  .lead {
-    display: flex;
-    flex-direction: column;
-    color: #FFFFFF;
-    align-items: center;
+
+  .lead{
     padding-top: 5.625%;
 }
 
@@ -35,10 +39,6 @@
 
 @media screen and (max-width:999px) and (min-width:550px) {
   .lead {
-      display: flex;
-      flex-direction: column;
-      color: #FFFFFF;
-      align-items: center;
       padding-top: 5.625%;
   }
 
@@ -69,10 +69,6 @@
 
 @media screen and (max-width:549px) {
   .lead {
-      display: flex;
-      flex-direction: column;
-      color: #FFFFFF;
-      align-items: center;
       padding-top: 3.125%;
   }
 
