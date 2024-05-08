@@ -1,3 +1,83 @@
 .places{
+  padding-top: 5.75%;
+  margin: 0 auto;
   color: #fff;
+  display: flex;
+  flex-direction: column;
+  gap: 31px;
+  align-items: center;
 }
+
+.places__destiny{
+  display: grid;
+  grid-template-areas:
+  "title website"
+  "image paragraph"
+  "frame paragraph"
+  ". paragraph";
+  column-gap: 40px;
+  row-gap: 48px;
+  max-width: 948px;
+}
+
+.places__title{
+  grid-area: title;
+  margin: 0;
+  max-width: 460px;
+  font-weight: 900;
+  font-size: 4.5rem;
+  line-height: 1.1;
+}
+
+.places__website{
+  grid-area: website;
+  display:flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  padding: 10.063% 0 0;
+
+}
+
+.places__website__url-heading{
+  padding: 0 0 0.5%;
+  max-width: 85.17px;
+  font-weight: 400;
+  font-size: 0.75rem;
+  line-height: 1.1;
+  color:#AAA;
+}
+
+.places__website__artist{
+  margin: 0;
+  font-weight: 400;
+  font-size: 1.125rem;
+  line-height: 1.1;
+}
+
+
+.places__container-paragraph{
+  grid-area: paragraph;
+}
+
+.places__paragraph{
+}
+
+
+.places__image{
+  grid-area: image;
+}
+
+.places__frame{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 356.08px;
+  height: 48px;
+  gap: 10px;
+  border-radius: 4px 0px 0px 0px;
+  opacity: 0px;
+  background: linear-gradient(90deg, #0278FE 0%, #003A7B 99.98%);
+  box-shadow: 5px 5px 10px 0px #00000040;
+  text-decoration: none;
+  color: #fff;
+  }
