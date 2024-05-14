@@ -3,10 +3,17 @@
   justify-content: center;
 }
 
+.header__logo-image{
+  width: 100%;
+  max-width: 254px;
+}
+
 @media screen and (min-width:1000px) {
 
 .header__logo-image {
-    padding-top: 2.125%;
+  padding-top: 2.125%;
+  padding-left: 32%;
+  padding-right: 32%;
 }
 }
 
@@ -15,7 +22,8 @@
 
 .header__logo-image {
   padding-top: 1.875%;
-  height: 7.025vh;
+  padding-left: 16.063%;
+  padding-right: 16.063%;
 }
 }
 
@@ -24,7 +32,8 @@
 
 .header__logo-image {
   padding-top: 1.25%;
-  width: 55vw;
-  height: 5.8vh;
+  padding-left: 4.125%;
+  padding-right: 4.125%;
+  max-width: 188px;
 }
 }
